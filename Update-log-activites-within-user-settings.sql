@@ -1,7 +1,7 @@
 USE [YOUR DB NAME]
 GO
 
--- Check the number of the users you are looking to perform the change
+-- Check the number of the users you are looking to perform the change e.g. MMT Digital and Kentico email addresses
 SELECT
   [UserID],
   [FullName],
