@@ -1,6 +1,7 @@
 USE [YOUR DB NAME]
 GO
 
+-- Check the number of the users you are looking to perform the change
 SELECT
   [UserID],
   [FullName],
