@@ -42,5 +42,5 @@ FROM [dbo].[CMS_UserSettings] s
 INNER JOIN [dbo].[CMS_User] u
   ON u.[UserID] = s.[UserSettingsUserID]
 WHERE u.[Email] LIKE '%@mmtdigital%'
-OR u.[Email] LIKE '%@christie%'
+OR u.[Email] LIKE '%@kentico%'
 COMMIT TRAN Live
